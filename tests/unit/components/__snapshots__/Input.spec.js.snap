@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input.vue should match snapshot 1`] = `
+<label>
+  <input
+    class=""
+    type=""
+  />
+   
+  <span>
+    
+  </span>
+</label>
+`;

@@ -1,0 +1,33 @@
+{
+    "name": "Paulo Ricardo Severo",
+    "age": 29,
+    "location": "Caxias do Sul, RS, Brasil",
+    "hometown": "Santa Maria, RS, Brasil",
+    "relationshipStatus": "Dating/Married",
+    "foods": {
+        "cook": ["Rice", "Boiled egg", "Noodles counts?"],
+        "favorites": ["Barbecue", "Pizza", "Lasagna"]
+    },
+    "beverages": ["Beer", "Coke", "Mojito"],
+    "tvSeries": ["Prison Break", "Breaking Bad", "Game Of Thrones"],
+    "music": {
+        "favorites": {
+            "bands": ["Avenged Sevenfold", "Metallica", "Queens Of The Stone Age"],
+            "songs": [
+                "Seize the Day",
+                "No One Knows",
+                "For Whom The Bell Tolls",
+                "The Day That Never Comes"
+            ]
+        },
+        "listen": ["Rock"],
+        "play": ["drums"]
+    },
+    "sports": {
+        "practice": {
+            "currently": ["swimming"],
+            "past": ["football", "kickboxing", "cycling", "soccer"]
+        },
+        "watch": ["football", "soccer"]
+    }
+}

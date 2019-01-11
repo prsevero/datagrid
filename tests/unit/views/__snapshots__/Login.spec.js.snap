@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login.vue should match snapshot 1`] = `
+<div
+  id="login"
+>
+  <form
+    novalidate="novalidate"
+  >
+    <img
+      alt="Company Name Logo"
+      src="../assets/logo.svg"
+    />
+     
+    <input-stub
+      label="Username"
+      required="true"
+      type="text"
+      value=""
+    />
+     
+    <input-stub
+      label="Password"
+      required="true"
+      type="password"
+      value=""
+    />
+     
+    <button-stub
+      label="Enter"
+      type="submit"
+    />
+  </form>
+</div>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation.vue should match snapshot 1`] = `
+<nav>
+  <router-link-stub
+    event="click"
+    tag="a"
+    to="/"
+  >
+    <img
+      alt="Company Name Logo"
+      src="@/assets/logo.svg"
+    />
+  </router-link-stub>
+   
+  <router-link-stub
+    event="click"
+    tag="a"
+    to="/logout"
+  >
+    Logout
+  </router-link-stub>
+</nav>
+`;
