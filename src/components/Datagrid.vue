@@ -6,6 +6,10 @@
                     <span v-if="!keyIsObject(key)">{{ headers[key] }}</span>
                     <span v-else>{{ headers[key.key] }}</span>
                     <img src="./arrow.svg" v-if="isSorted(key)" :class="{desc: sortedBy.desc}" />
+                    <span v-else>
+                        <img src="./arrow.svg" class="desc" />
+                        <img src="./arrow.svg" />
+                    </span>
                 </th>
             </tr>
 
@@ -202,13 +206,24 @@ table
         cursor: pointer
         padding-top: 15px
         img
-            display: inline-block
             margin-left: 4px
             vertical-align: middle
             width: 12px
             transform: rotate(90deg)
             &.desc
                 transform: rotate(-90deg)
+
+    // Headers both arrows
+    thead tr:first-child th > span
+        display: inline-block
+        vertical-align: middle
+        &:last-child
+            max-width: 15px
+            img
+                &:first-child
+                    margin-bottom: -5px
+                &:last-child
+                    margin-top: -5px
 
     tbody tr
         &:nth-child(odd),
