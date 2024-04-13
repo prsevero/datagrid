@@ -8,11 +8,7 @@
 <script>
 import Datagrid from '@/components/Datagrid.vue';
 import Loading from '@/components/Loading.vue';
-
-let href = window.location.origin;
-if (href.substr(-1) !== '/') href += '/';
-if (process.env.NODE_ENV === 'development') href = href.replace('8080', '8081');
-const dataUrl = `${href}data`;
+const dataUrl = `/datagrid/data/`;
 
 export default {
     name: 'home',

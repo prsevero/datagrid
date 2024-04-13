@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const Papa = require('papaparse');
 const path = require('path');
-const csvFilePath = 'src/assets/data.csv';
+const csvFilePath = 'data.csv';
 
 const app = express();
 
@@ -36,7 +36,7 @@ app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
-let port = Number(process.env.PORT || 8081);
+let port = Number(3003);
 app.listen(port, function () {
     console.log('Server running at localhost:' + port);
 });

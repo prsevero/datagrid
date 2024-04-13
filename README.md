@@ -1,54 +1,20 @@
+# Datagrid
 
-# VueJS Datagrid
+**First experience with Vue.js framework**
 
-This project aims to give a simple idea of how to implement a "table with powers" (datagrid/datatable).
+---
 
-Datagrid supports editable fields, sort columns and data search in multiple columns.
+## Live demo
+The project can be accessed [here](https://prsevero.com.br/datagrid/).
+
+## Project
+This project aims to give insights on how to implement a "table with powers" (datagrid/datatable).
+
+Datagrid supports editable fields, sort columns and data search in multiple columns. Additionally, when some action is taken by the user, like sorting a column or editing some field, the data is saved in the server.
 
 As it is my first experience with the VueJS framework, I started with a feature that is usual to every developer: the authentication. I chose to start this way so I could get more comfortable with the framework, and then go to the real deal.
 
 *To do the authentication, you can use any credentials*
-
-
-## Demo
-If you do not want to install and run it locally, you can access the demo [here](https://prsevero-datagrid.herokuapp.com).
-
-
-## Running it locally...
-### In Development mode
-#### With NPM
-    npm install
-    npm start
-
-#### With Yarn
-    yarn install
-    yarn start
-
----
-### In Production mode
-#### With NPM
-    npm install
-    npm run build
-    npm run server
-
-#### With Yarn
-    yarn install
-    yarn build
-    yarn server
-
----
-## Running the tests
-#### With NPM
-    npm run test:unit
-
-#### With Yarn
-    yarn test:unit
-* *You must have the dependencies installed before running the tests.*
-
-
-## Deployment
-It is hosted in Heroku, with a git push and deploy approach.
-
 
 ## Misc
 I spent about 25 hours in the project until now, counting since reading the VueJS docs, the creation of the project, coding the components and deploying it to the server.
